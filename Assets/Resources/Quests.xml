@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<QuestContainer>
+  <Quests>
+    <Quest>
+      <ID>0</ID>
+      <Title>Check your email.</Title>
+      <Description>Press [E] to open and close your email.</Description>
+      <Conditions>
+        <Condition>EmailChecked</Condition>
+      </Conditions>
+      <NextStep>1</NextStep>
+    </Quest>
+
+    <Quest>
+      <ID>1</ID>
+      <Title>Turn on your flashlight.</Title>
+      <Description>Press [F] to turn your flashlight on and off.</Description>
+      <Conditions>
+        <Condition>FlashlightUsed</Condition>
+      </Conditions>
+      <NextStep>2</NextStep>
+    </Quest>
+    
+    <Quest>
+      <ID>2</ID>
+      <Title>Find the front door key.</Title>
+      <Description>Hint: Check under the doormat!</Description>
+      <Conditions>
+        <Condition>DoormatChecked</Condition>
+      </Conditions>
+      <NextStep>3</NextStep>
+    </Quest>
+
+    <Quest>
+      <ID>3</ID>
+      <Title>Search the shed.</Title>
+      <Description>Time to look for the back door key instead...</Description>
+      <Conditions>
+        <Condition>ShedFound</Condition>
+        <Condition>GotBackDoorKey</Condition>
+      </Conditions>
+      <NextStep>4</NextStep>
+    </Quest>
+
+    <Quest>
+      <ID>4</ID>
+      <Title>Unlock the back door.</Title>
+      <Description></Description>
+      <Conditions>
+        <Condition>BackdoorUnlocked</Condition>
+      </Conditions>
+      <NextStep>5</NextStep>
+    </Quest>
+
+    <Quest>
+      <ID>5</ID>
+      <Title>Open the front door.</Title>
+      <Description>There's got to be a key here somewhere</Description>
+      <Conditions>
+        <Condition>GotFrontDoorKey</Condition>
+        <Condition>UnlockedFrontDoor</Condition>
+      </Conditions>
+      <NextStep>6</NextStep>
+    </Quest>
+
+    <Quest>
+      <ID>6</ID>
+      <Title>Find the items.</Title>
+      <Description>Get all the items in the truck to leave.</Description>
+      <Conditions>
+        <Condition>PlantFound</Condition>
+        <Condition>PlantInTruck</Condition>
+        <Condition>LampFound</Condition>
+        <Condition>LampInTruck</Condition>
+        <Condition>Pillow1Found</Condition>
+        <Condition>Pillow1InTruck</Condition>
+        <Condition>Pillow2Found</Condition>
+        <Condition>Pillow2InTruck</Condition>
+        <Condition>Pillow3Found</Condition>
+        <Condition>Pillow3InTruck</Condition>
+        <Condition>ShovelFound</Condition>
+        <Condition>ShovelInTruck</Condition>
+        <Condition>ArmchairFound</Condition>
+        <Condition>ArmchairInTruck</Condition>
+        <Condition>RadioFound</Condition>
+        <Condition>RadioInTruck</Condition>
+        <Condition>BooksFound</Condition>
+        <Condition>BooksInTruck</Condition>
+      </Conditions>
+      <NextStep>7</NextStep>
+    </Quest>
+    
+    <Quest>
+      <ID>7</ID>
+      <Title>Get out of here.</Title>
+      <Description></Description>
+      <Conditions>
+        <Condition>Leave</Condition>
+      </Conditions>
+    </Quest>
+  </Quests>
+</QuestContainer>

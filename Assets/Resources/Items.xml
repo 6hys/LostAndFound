@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<ItemContainer>
+  <Items>
+    <Item>
+      <Name>Backdoor Key</Name>
+      <Size>1</Size>
+      <ImageLeft>Icons/key 1</ImageLeft>
+    </Item>
+    <Item>
+      <Name>Front Door Key</Name>
+      <Size>1</Size>
+      <ImageLeft>Icons/key 1</ImageLeft>
+    </Item>
+    <Item>
+      <Name>Plant</Name>
+      <Size>2</Size>
+      <ImageLeft>Icons/pottedPlant_NER</ImageLeft>
+      <ImageRight>Icons/pottedPlant_NEL</ImageRight>
+    </Item>
+    <Item>
+      <Name>Lamp</Name>
+      <Size>1</Size>
+      <ImageLeft>Icons/lampRoundTable_NW</ImageLeft>
+    </Item>
+    <Item>
+      <Name>Pillow 1</Name>
+      <Size>1</Size>
+      <ImageLeft>Icons/pillow_SW</ImageLeft>
+    </Item>
+    <Item>
+      <Name>Pillow 2</Name>
+      <Size>1</Size>
+      <ImageLeft>Icons/pillowBlue_SE</ImageLeft>
+    </Item>
+    <Item>
+      <Name>Pillow 3</Name>
+      <Size>1</Size>
+      <ImageLeft>Icons/pillowLong_NE</ImageLeft>
+    </Item>
+    <Item>
+      <Name>Shovel</Name>
+      <Size>1</Size>
+      <ImageLeft>Icons/shovel_SW</ImageLeft>
+    </Item>
+    <Item>
+      <Name>Armchair</Name>
+      <Size>2</Size>
+      <ImageLeft>Icons/loungeChair_SWL</ImageLeft>
+      <ImageRight>Icons/loungeChair_SWR</ImageRight>
+    </Item>
+    <Item>
+      <Name>Radio</Name>
+      <Size>1</Size>
+      <ImageLeft>Icons/radio_SE</ImageLeft>
+    </Item>
+    <Item>
+      <Name>Books</Name>
+      <Size>1</Size>
+      <ImageLeft>Icons/books_SW</ImageLeft>
+    </Item>
+  </Items>
+</ItemContainer>
